@@ -26,6 +26,7 @@ searchButton.addEventListener("click", () => {
                     movieDiv.innerHTML = `
             <h3>${movie.Title}</h3>
             <p>${movie.Year}</p>
+            <p><strong>Sinopsis:</strong> ${details.Plot}</p>
             <img src="${movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/150"}" alt="Póster de ${movie.Title}" width="100%">
           `;
 
